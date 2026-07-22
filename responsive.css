@@ -1,0 +1,524 @@
+/*==================================================
+            TABLETTES
+==================================================*/
+
+@media screen and (max-width:1024px){
+
+
+.container{
+
+    width:92%;
+
+}
+
+
+/******** HEADER ********/
+
+
+.nav-container{
+
+    flex-direction:column;
+
+    height:auto;
+
+    padding:25px 0;
+
+}
+
+
+nav ul{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+
+.btn-header{
+
+    margin-top:20px;
+
+}
+
+
+/******** HERO ********/
+
+
+.hero{
+
+    height:auto;
+
+    min-height:90vh;
+
+}
+
+
+.hero-content h1{
+
+    font-size:48px;
+
+}
+
+
+.hero-content p{
+
+    width:90%;
+
+    font-size:18px;
+
+}
+
+
+/******** RECHERCHE ********/
+
+
+.search-box form{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+
+}
+
+
+/*==================================================
+            SMARTPHONES
+==================================================*/
+
+@media screen and (max-width:768px){
+
+
+.container{
+
+    width:90%;
+
+}
+
+
+/******** TOP BAR ********/
+
+
+.top-bar .container{
+
+    flex-direction:column;
+
+    gap:12px;
+
+    text-align:center;
+
+}
+
+
+/******** HEADER ********/
+
+
+.nav-container{
+
+    text-align:center;
+
+}
+
+
+.logo{
+
+    font-size:28px;
+
+}
+
+
+nav ul{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+nav{
+
+    width:100%;
+
+}
+
+
+
+/******** HERO ********/
+
+
+.hero{
+
+    min-height:700px;
+
+}
+
+
+.hero-content h1{
+
+    font-size:34px;
+
+    line-height:1.3;
+
+}
+
+
+.hero-content p{
+
+    font-size:16px;
+
+}
+
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+.btn-orange,
+.btn-white{
+
+    width:90%;
+
+}
+
+
+
+/******** RECHERCHE ********/
+
+
+.search-section{
+
+    margin-top:-40px;
+
+}
+
+
+.search-box{
+
+    padding:25px;
+
+}
+
+
+.search-box h2{
+
+    font-size:24px;
+
+}
+
+
+.search-box form{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/******** TITRES ********/
+
+
+.section-title h2{
+
+    font-size:30px;
+
+}
+
+
+/******** CATEGORIES ********/
+
+
+.categories-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.category-card{
+
+    padding:30px;
+
+}
+
+
+
+/******** PRESTATAIRES ********/
+
+
+.featured-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.provider-card img{
+
+    height:220px;
+
+}
+
+
+
+/******** POURQUOI ********/
+
+
+.why-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/******** ETAPES ********/
+
+
+.steps-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/******** STATISTIQUES ********/
+
+
+.stat h2{
+
+    font-size:45px;
+
+}
+
+
+
+/******** VILLES ********/
+
+
+.cities-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/******** EVENEMENTS ********/
+
+
+.events-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.event-card img{
+
+    height:220px;
+
+}
+
+
+
+/******** BLOG ********/
+
+
+.blog-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+/******** TEMOIGNAGES ********/
+
+
+.testimonial-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/******** PARTENAIRES ********/
+
+
+.partners-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+/******** NEWSLETTER ********/
+
+
+.newsletter h2{
+
+    font-size:26px;
+
+}
+
+
+
+/******** FOOTER ********/
+
+
+.footer-grid{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+
+.social-footer{
+
+    justify-content:center;
+
+}
+
+
+}
+
+
+
+/*==================================================
+            PETITS TELEPHONES
+==================================================*/
+
+@media screen and (max-width:480px){
+
+
+.hero-content h1{
+
+    font-size:28px;
+
+}
+
+
+.hero-content p{
+
+    font-size:15px;
+
+}
+
+
+.category-card i{
+
+    width:70px;
+
+    height:70px;
+
+    font-size:25px;
+
+}
+
+
+.search-box{
+
+    padding:20px;
+
+}
+
+
+.btn-orange,
+.btn-white{
+
+    padding:15px;
+
+}
+
+
+.partners-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+}
+@media screen and (max-width:768px){
+
+
+.publish-form{
+
+grid-template-columns:1fr;
+
+}
+
+
+.form-group.full{
+
+grid-column:1;
+
+}
+
+
+.publish-box{
+
+padding:25px;
+
+}
+
+}
+@media screen and (max-width:768px){
+
+
+.contact-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+.contact-item{
+
+align-items:flex-start;
+
+}
+
+
+}
+@media(max-width:768px){
+
+
+.provider-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+.services-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+.gallery-grid{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+
+.profile-buttons{
+
+flex-direction:column;
+
+}
+
+
+}
